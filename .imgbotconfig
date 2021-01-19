@@ -1,9 +1,9 @@
 {
-    "schedule": "daily", // daily|weekly|monthly
+    "schedule": "daily", // 执行周期 daily|weekly|monthly
     "ignoredFiles": [
         // "*.jpg",                   // ignore by extension
         // "image1.png",              // ignore by filename
         // "public/special_images/*", // ignore by folderpath
     ],
-    "aggressiveCompression": "false" // true|false
+    "aggressiveCompression": "false" // 使用有损压缩 true|false
 }
